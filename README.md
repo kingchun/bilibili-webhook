@@ -34,6 +34,14 @@ docker build -t bilibili-webhook .
 docker run -d --restart always --name bilibili-webhook -e SESSDATA=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -v /mnt/downloads:/app/downloads -v /mnt/Data/bilibili-webhook:/app/config bilibili-webhook
 ```
 
+## 从docker hub运行
+
+[docker地址](https://hub.docker.com/r/1077478963/bilibili-webhook/tags)
+
+```
+docker run -d --restart always --name bilibili-webhook -e SESSDATA=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -v /mnt/downloads:/app/downloads -v /mnt/Data/bilibili-webhook:/app/config bilibili-webhook 1077478963/bilibili-webhook:0.0.1
+```
+
 ## 许可
 
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
