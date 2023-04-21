@@ -39,7 +39,7 @@ docker run -d --restart always --name bilibili-webhook -e SESSDATA=AAAAAAAAAAAAA
 [docker地址](https://hub.docker.com/r/1077478963/bilibili-webhook/tags)
 
 ```
-docker run -d --restart always --name bilibili-webhook -e SESSDATA=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -v /mnt/downloads:/app/downloads -v /mnt/Data/bilibili-webhook:/app/config bilibili-webhook 1077478963/bilibili-webhook:0.0.1
+docker run -d --restart always --name bilibili-webhook -e SESSDATA=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -v /mnt/downloads:/app/downloads -v /mnt/Data/bilibili-webhook:/app/config  1077478963/bilibili-webhook:0.0.1
 ```
 
 ## 感谢
